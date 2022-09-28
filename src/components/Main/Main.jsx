@@ -27,14 +27,12 @@ const Main = () => {
               whileInView={{ opacity: 1 }}
               transition= {{ ease: "easeInOut", delay: .1, duration: 0.8, }}
               whileHover={{ scale: [null, 1.5, 1.4] }}
-              whileTap={{ scale: 50, }}
               src={Rikov} alt="img" className='rikovImg' />
             <motion.img
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition= {{ ease: "easeInOut", delay: .2, duration: 0.8, }}
               whileHover={{ scale: [null, 1.5, 1.4]}}
-              whileTap={{ scale: 2000, }}
              src={Bave} alt="img" className='baveImg' />
             <motion.img
               initial={{ opacity: 0 }}
