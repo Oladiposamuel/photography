@@ -1,0 +1,13 @@
+.footer {
+    height: 15vh;
+    margin-top: 10em;
+    background-color: #b4845c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-text {
+    font-weight: 700;
+}
